@@ -1,19 +1,24 @@
 import React from "react";
-import ScoreCounter from "./ScoreCounter";
+// import ScoreCounter from "./ScoreCounter";
 
 function Header(props) {
     return (
-        <nav className="navbar">
-            <ul>
-                <li className="brand">
-                    React Memory
-            </li>
-                <li>
-                    <ScoreCounter />
-                </li>
-            </ul>
-        </nav>
-    )
+        // <div className="container">
+        //     <nav className="navbar navbar-expand-lg navbar-light bg-light">
+        //         <a className="navbar-brand" href="#">
+        //             React Memory
+        //         </a>
+        //         <ul>
+        //             <li>
+        //                 {props.children}
+        //             </li>
+        //         </ul>
+        //     </nav>
+        // </div>
+        <div className="animal-card">
+            <img alt={props.name} src={props.image} />
+        </div>
+    );
 };
 
 export default Header;

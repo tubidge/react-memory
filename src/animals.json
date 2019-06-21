@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "name": "monkey",
+        "image": "../public/Assets/Images/Monkey.png"
+    },
+    {
+        "id": 2,
+        "name": "flamingo",
+        "image": "../public/Assets/Images/Flamingo.png"
+    },
+    {
+        "id": 3,
+        "name": "koala",
+        "image": "../public/Assets/Images/Koala.png"
+    },
+    {
+        "id": 4,
+        "name": "toucan",
+        "image": "../public/Assets/Images/Toucan.png"
+    },
+    {
+        "id": 5,
+        "name": "crocodile",
+        "image": "../public/Assets/Images/Crocodile.png"
+    },
+    {
+        "id": 6,
+        "name": "elephant",
+        "image": "../public/Assets/Images/Elephant.png"
+    },
+    {
+        "id": 7,
+        "name": "tiger",
+        "image": "../public/Assets/Images/Tiger.png"
+    },
+    {
+        "id": 8,
+        "name": "hippo",
+        "image": "../public/Assets/Images/Hippo.png"
+    },
+    {
+        "id": 9,
+        "name": "lion",
+        "image": "../public/Assets/Images/Lion.png"
+    },
+    {
+        "id": 10,
+        "name": "rhino",
+        "image": "../public/Assets/Images/Rhino.png"
+    },
+    {
+        "id": 11,
+        "name": "kangaroo",
+        "image": "../public/Assets/Images/Kangaroo.png"
+    },
+    {
+        "id": 12,
+        "name": "giraffe",
+        "image": "../public/Assets/Images/Giraffe.png"
+    }
+]
