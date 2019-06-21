@@ -4,7 +4,7 @@ import React from "react";
 function Header(props) {
     return (
         <div className="container">
-            <nav className="navbar navbar-expand-lg navbar-light bg-light">
+            <nav className="navbar navbar-light bg-light">
                 <a className="navbar-brand" href="#">
                     React Memory
                 </a>

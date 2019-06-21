@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Wrapper from "./components/Wrapper";
 import Header from "./components/Header";
+import Jumbotron from "./components/Jumbotron";
 import ScoreCounter from "./components/ScoreCounter";
 import CardContainer from "./components/CardContainer";
 import Card from "./components/Card";
@@ -30,6 +31,7 @@ class App extends Component {
         <Header>
           <ScoreCounter />
         </Header>
+        <Jumbotron />
         <CardContainer>
           {this.state.animals.map(animal => (
             <Card
