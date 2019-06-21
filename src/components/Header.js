@@ -3,22 +3,19 @@ import React from "react";
 
 function Header(props) {
     return (
-        // <div className="container">
-        //     <nav className="navbar navbar-expand-lg navbar-light bg-light">
-        //         <a className="navbar-brand" href="#">
-        //             React Memory
-        //         </a>
-        //         <ul>
-        //             <li>
-        //                 {props.children}
-        //             </li>
-        //         </ul>
-        //     </nav>
-        // </div>
-        <div className="animal-card">
-            <img alt={props.name} src={props.image} />
+        <div className="container">
+            <nav className="navbar navbar-expand-lg navbar-light bg-light">
+                <a className="navbar-brand" href="#">
+                    React Memory
+                </a>
+                <ul>
+                    <li>
+                        {props.children}
+                    </li>
+                </ul>
+            </nav>
         </div>
-    );
+    )
 };
 
 export default Header;

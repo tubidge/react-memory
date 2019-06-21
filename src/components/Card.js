@@ -6,7 +6,6 @@ function Card(props) {
     return (
         <div className="card">
             <div className="img-container">
-                Name: {props.name}
                 <img alt={props.alt} src={props.image} />
             </div>
         </div>
