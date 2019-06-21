@@ -35,7 +35,7 @@ class App extends Component {
             <Card
               id={animal.id}
               key={animal.id}
-              name={animal.name}
+              alt={animal.name}
               image={animal.image}
             />
           ))}
