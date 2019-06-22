@@ -1,0 +1,10 @@
+.img-container {
+    display: inline;
+    margin: 15px 0 15px 0
+
+}
+
+.img {
+    height: 265px;
+    width: 162px;
+}

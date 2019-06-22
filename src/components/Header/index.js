@@ -8,8 +8,8 @@ function Header(props) {
                 <a className="navbar-brand" href="#">
                     React Memory
                 </a>
-                <ul>
-                    <li>
+                <ul className="nav">
+                    <li className="nav-item">
                         {props.children}
                     </li>
                 </ul>

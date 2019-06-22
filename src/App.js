@@ -10,38 +10,71 @@ import animals from "./animals.json";
 
 class App extends Component {
   state = {
-    animals
-    // cards: [],
-    // status: "",
-    // score: 0
+    animals,
+    score: 0,
+    topScore: 0,
+    status: "Click an image to start",
+    guesses: []
+  };
+
+  userGuess = (id) => {
+    if (this.state.guesses.includes(id)) {
+      this.setState({
+        status: "Wrong! Game over, bitch.",
+        score: 0,
+        guesses: []
+      })
+    } else {
+      const currentGuess = this.state.guesses;
+      currentGuess.push(id);
+      const newScore = this.state.score + 1;
+      if (newScore > this.state.topScore) {
+        this.setState({
+          guesses: currentGuess,
+          score: newScore,
+          topScore: newScore,
+          status: "Correct! Guess again, bitch."
+        })
+      } else {
+        this.setState({
+          guesses: currentGuess,
+          score: newScore,
+          status: "Correct! Guess again, bitch."
+        });
+      };
+    };
+    this.shuffle();
+  };
+
+  shuffle = () => {
+    this.state.animals.sort(() => Math.random() - 0.5)
   };
 
   render() {
     return (
-      // <Wrapper>
-      //   <Header>
-      //     React Memory
-      //     <ScoreCounter />
-      //   </Header>
-      //   <CardContainer>
-      //     <Card />
-      //   </CardContainer>
-      // </Wrapper>
       <Wrapper>
         <Header>
-          <ScoreCounter />
+          <ScoreCounter
+            score={this.state.score}
+            topScore={this.state.topScore}
+          />
         </Header>
         <Jumbotron />
-        <CardContainer>
-          {this.state.animals.map(animal => (
-            <Card
-              id={animal.id}
-              key={animal.id}
-              alt={animal.name}
-              image={animal.image}
-            />
-          ))}
-        </CardContainer>
+        <div className="container">
+          <div className="row">
+            <CardContainer>
+              {this.state.animals.map(animal => (
+                <Card
+                  id={animal.id}
+                  key={animal.id}
+                  alt={animal.name}
+                  image={animal.image}
+                  userGuess={this.userGuess}
+                />
+              ))}
+            </CardContainer>
+          </div>
+        </div>
       </Wrapper>
     )
   }
