@@ -1,8 +1,9 @@
 .img-container {
-    display: inline
+    display: inline;
 }
 
 .img {
-    height: 265px;
-    width: 162px;
+    height: 175px;
+    width: 107px;
+    margin: 2px
 }
