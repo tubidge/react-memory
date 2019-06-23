@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/react-memory/static/css/main.7f43f243.chunk.css",
-    "main.js": "/react-memory/static/js/main.022f4537.chunk.js",
-    "main.js.map": "/react-memory/static/js/main.022f4537.chunk.js.map",
+    "main.js": "/react-memory/static/js/main.9de61f87.chunk.js",
+    "main.js.map": "/react-memory/static/js/main.9de61f87.chunk.js.map",
     "runtime~main.js": "/react-memory/static/js/runtime~main.fbbade95.js",
     "runtime~main.js.map": "/react-memory/static/js/runtime~main.fbbade95.js.map",
     "static/js/2.884c28c3.chunk.js": "/react-memory/static/js/2.884c28c3.chunk.js",
     "static/js/2.884c28c3.chunk.js.map": "/react-memory/static/js/2.884c28c3.chunk.js.map",
     "index.html": "/react-memory/index.html",
-    "precache-manifest.f512e7811fb39941b4d365de492bf95e.js": "/react-memory/precache-manifest.f512e7811fb39941b4d365de492bf95e.js",
+    "precache-manifest.7b6e0705647e9e699ef0cf8466bf0586.js": "/react-memory/precache-manifest.7b6e0705647e9e699ef0cf8466bf0586.js",
     "service-worker.js": "/react-memory/service-worker.js",
     "static/css/main.7f43f243.chunk.css.map": "/react-memory/static/css/main.7f43f243.chunk.css.map"
   }
