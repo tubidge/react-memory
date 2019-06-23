@@ -1,8 +1,13 @@
 import React from "react";
+import "./style.css";
 
 function Status(props) {
     return (
-        <div></div>
+        <div className="status-bar">
+            <p className="status-text">
+                <h4>{props.status}</h4>
+            </p>
+        </div>
     )
 };
 

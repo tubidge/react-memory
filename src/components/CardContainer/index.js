@@ -1,8 +1,8 @@
 import React from "react";
-// import { tsPropertySignature } from "@babel/types";
+import "./style.css";
 
 function CardContainer(props) {
-    return <div className="wrapper">{props.children}</div>;
+    return <div className="card-container">{props.children}</div>;
 };
 
 export default CardContainer;

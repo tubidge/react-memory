@@ -2,9 +2,9 @@ import React from "react";
 
 function ScoreCounter(props) {
     return (
-        <div>
+        <li className="nav-item">
             Score: {props.score} | Top Score: {props.topScore}
-        </div>
+        </li>
     );
 };
 

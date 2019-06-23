@@ -1,20 +1,18 @@
 import React from "react";
-// import ScoreCounter from "./ScoreCounter";
+import "./style.css";
 
 function Header(props) {
     return (
-        <div className="container">
-            <nav className="navbar navbar-light bg-light">
+        <nav className="navbar navbar-default">
+            <div className="navbar-header">
                 <a className="navbar-brand" href="#">
                     React Memory
                 </a>
-                <ul className="nav">
-                    <li className="nav-item">
-                        {props.children}
-                    </li>
-                </ul>
-            </nav>
-        </div>
+            </div>
+            <ul className="nav">
+                {props.children}
+            </ul>
+        </nav>
     )
 };
 
