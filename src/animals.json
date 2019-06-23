@@ -2,61 +2,61 @@
     {
         "id": 1,
         "name": "monkey",
-        "image": "/Assets/Images/Monkey.png"
+        "image": "/Images/Monkey.png"
     },
     {
         "id": 2,
         "name": "flamingo",
-        "image": "/Assets/Images/Flamingo.png"
+        "image": "/Images/Flamingo.png"
     },
     {
         "id": 3,
         "name": "koala",
-        "image": "/Assets/Images/Koala.png"
+        "image": "/Images/Koala.png"
     },
     {
         "id": 4,
         "name": "toucan",
-        "image": "/Assets/Images/Toucan.png"
+        "image": "/Images/Toucan.png"
     },
     {
         "id": 5,
         "name": "crocodile",
-        "image": "/Assets/Images/Crocodile.png"
+        "image": "/Images/Crocodile.png"
     },
     {
         "id": 6,
         "name": "elephant",
-        "image": "/Assets/Images/Elephant.png"
+        "image": "/Images/Elephant.png"
     },
     {
         "id": 7,
         "name": "tiger",
-        "image": "/Assets/Images/Tiger.png"
+        "image": "/Images/Tiger.png"
     },
     {
         "id": 8,
         "name": "hippo",
-        "image": "/Assets/Images/Hippo.png"
+        "image": "/Images/Hippo.png"
     },
     {
         "id": 9,
         "name": "lion",
-        "image": "/Assets/Images/Lion.png"
+        "image": "/Images/Lion.png"
     },
     {
         "id": 10,
         "name": "rhino",
-        "image": "/Assets/Images/Rhino.png"
+        "image": "/Images/Rhino.png"
     },
     {
         "id": 11,
         "name": "kangaroo",
-        "image": "/Assets/Images/Kangaroo.png"
+        "image": "/Images/Kangaroo.png"
     },
     {
         "id": 12,
         "name": "giraffe",
-        "image": "/Assets/Images/Giraffe.png"
+        "image": "/Images/Giraffe.png"
     }
 ]
