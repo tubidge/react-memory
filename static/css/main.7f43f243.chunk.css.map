@@ -1,0 +1,1 @@
+{"version":3,"sources":["style.css"],"names":[],"mappings":"AAAA,cACI,UACJ,CAFA,aACI,iBACJ,CAFA,gBACI,WACJ,CAFA,eACI,cACJ,CAEA,KACI,YAAa,CACb,WAAY,CACZ,UACJ","file":"main.7f43f243.chunk.css","sourcesContent":[".img-container {\r\n    display: inline;\r\n}\r\n\r\n.img {\r\n    height: 175px;\r\n    width: 107px;\r\n    margin: 2px\r\n}"]}
