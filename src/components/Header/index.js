@@ -6,7 +6,7 @@ function Header(props) {
         <nav className="navbar navbar-default">
             <div className="navbar-header">
                 <a className="navbar-brand" href="#">
-                    React Memory
+                    <h4>React Memory</h4>
                 </a>
             </div>
             <ul className="nav">
